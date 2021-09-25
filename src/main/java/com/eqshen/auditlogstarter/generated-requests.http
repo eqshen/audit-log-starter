@@ -1,0 +1,19 @@
+###
+GET http://localhost:8080/listUsers
+
+<> 2021-09-25T161415.200.json
+
+###
+POST http://localhost:8080/operateUser
+Content-Type: application/json
+
+{
+  "userId": "1234",
+  "name": "王二麻子"
+}
+
+<> 2021-09-25T163021.200.json
+
+
+###
+GET http://localhost:8080/getUserInfo?userId=1234
