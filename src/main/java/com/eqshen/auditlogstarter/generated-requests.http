@@ -8,7 +8,7 @@ POST http://localhost:8080/operateUser
 Content-Type: application/json
 
 {
-  "userId": "1234",
+  "userId": "12345",
   "name": "王二麻子"
 }
 
